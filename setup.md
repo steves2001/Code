@@ -1,9 +1,9 @@
-#Setup
+# Setup
 
 ## Sign up of github
 
 * create an empty repository
-* 
+* make a note of the repository address https://github.com/steves2001/Code.git
 
 ##Go to local development machine 
 
@@ -13,6 +13,8 @@
 * open a secure shell to the virtual server
 ** type vagrant ssh
 * cd to code folder
+* git config --global user.email "me@stephensmith.me.uk"
+* git config --global user.name "Stephen Smith"
 * type git init
 * type git add .
 * type git commit -m "First commit"
@@ -32,3 +34,13 @@
 ## To copy site files to the servers web folder
 
 * type git checkout-index -a -f --prefix=/kunden/homepages/43/d520356031/htdocs/Code/
+
+## Update github with changed files
+
+* git add .
+* git commit -m "Instructions added"
+* git push origin master
+
+## Retrieve updates from github
+
+*
